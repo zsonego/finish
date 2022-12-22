@@ -110,7 +110,7 @@ function handeTimeClick() {
 }
 let audio = document.createElement('audio'); //音频
 // document.body.innerHTML += audio;
-audio.src = './audio.mp3';
+audio.src = '/finish/audio/audio.mp3';
 /**
  * 处理倒计时
  */
@@ -119,7 +119,7 @@ function handeTime() {
   updateTime();
   handeTimeClick();
   let temp = setInterval(() => {
-    audio.play()
+    audio.play();
     box.second.innerHTML = ':0' + time;
     if (time <= 0) {
       audio.pause();
