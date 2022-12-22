@@ -108,20 +108,20 @@ function handeTimeClick() {
     }
   });
 }
-let audio = document.createElement('audio') //音频
-audio.src = '../audio/audio.mp3'
+let audio = document.createElement('audio'); //音频
+audio.src = '/audio/audio.mp3';
 /**
  * 处理倒计时
  */
 function handeTime() {
-  audio.play()
+  audio.play();
   updateTime();
   handeTimeClick();
   box.second.innerHTML = ':0' + time;
   let temp = setInterval(() => {
     box.second.innerHTML = ':0' + time;
     if (time <= 0) {
-      audio.pause()
+      audio.pause();
       box.dom.style.display = 'none';
       if (isprize) {
         //成功
