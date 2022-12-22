@@ -109,7 +109,7 @@ function handeTimeClick() {
   });
 }
 let audio = document.createElement('audio'); //音频
-audio.src = '/audio/audio.mp3';
+audio.src = './audio/audio.mp3';
 /**
  * 处理倒计时
  */
