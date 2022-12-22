@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #d9d5d5;
+  align-items: center;
+  position: relative;
+}
+.title {
+  margin-bottom: 50px;
+}
+.butt {
+  width: 200px;
+  height: 50px;
+  /* border-radius: 10px; */
+}
+.time{
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 60px;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(000, 000, 000, 0.5);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(000, 000, 000, 0.5);
+}
+.frame{
+  width: 400px;
+  min-height: 150px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px rgba(000, 000, 000, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.frame-container{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.frame-butt{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.confirm{
+  width: 100px;
+  height: 40px; 
+}
+.container-butt{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.box-top{
+  font-size: 30px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+/* .second{
+  font-size: 55px;
+  margin-bottom: -10px;
+} */
+.prin{
+  width: 400px;
+  display: none;
+}
+.prin-main{
+  text-align: center;
+  width: 100%;
+  line-height: 20px;
+  margin: 0 auto;
+}
+.prin-public{
+  margin-top: 40px;
+}
+.fail{
+  width: 400px;
+  display: none;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 20px;
+  user-select: none;
+}
+.success{
+  width: 200px;
+  display: none;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 20px;
+  user-select: none;
+}
