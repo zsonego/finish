@@ -110,7 +110,7 @@ function handeTimeClick() {
 }
 let audio = document.createElement('audio'); //音频
 // document.body.innerHTML += audio;
-audio.src = '/finish/audio/audio.mp3';
+audio.src = './audio.mp3';
 /**
  * 处理倒计时
  */
